@@ -1,4 +1,4 @@
-//perimeter and are of a circle
+//perimeter and area of a circle
 
 // console.log(Math.PI);
 
