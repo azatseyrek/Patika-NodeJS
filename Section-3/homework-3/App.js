@@ -1,2 +1,2 @@
-const { circleArea, circumference } = require("./circle");
+const { circleArea, circleCircumference } = require("./circle");
 
