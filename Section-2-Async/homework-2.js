@@ -40,12 +40,11 @@ const listPost = () => {
 
 const addPost = (newPost) => {
   promise = new Promise((resolve, reject) => {
-      posts.push(newPost)
-    
-      resolve(console.log("post eklendi"));
-  
-      reject("kitap eklenemedi");
-    
+    posts.push(newPost);
+
+    resolve(console.log("post eklendi"));
+
+    reject("kitap eklenemedi");
   });
   return promise;
 };
@@ -54,10 +53,9 @@ async function showPosts() {
   try {
     await addPost({ id: 7, postSub: "Post-5" });
     listPost();
-    
   } catch (error) {
     console.log(error);
   }
-};
+}
 
 showPosts();

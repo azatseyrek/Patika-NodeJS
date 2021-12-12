@@ -41,6 +41,7 @@ const cleanData = (recivedData) => {
 
 //ASYNC - AWAIT YAPISI ILE COZUM
 
+            // !!!!!!!! fat arrow kullaniminda async duzgun calismiyor!!!!!! //
 // const processData = async () => {
 //   try {
 //     const recivedData = await getData(true);
